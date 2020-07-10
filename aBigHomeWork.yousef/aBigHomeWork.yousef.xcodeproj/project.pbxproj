@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B97301AE1BDD2D34001006DB /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = B97301A91BDD2D34001006DB /* 0.png */; settings = {ASSET_TAGS = (); }; };
+		B97301AF1BDD2D34001006DB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B97301AA1BDD2D34001006DB /* 1.png */; settings = {ASSET_TAGS = (); }; };
+		B97301B01BDD2D34001006DB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B97301AB1BDD2D34001006DB /* 2.png */; settings = {ASSET_TAGS = (); }; };
+		B97301B11BDD2D34001006DB /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B97301AC1BDD2D34001006DB /* 3.png */; settings = {ASSET_TAGS = (); }; };
+		B97301B21BDD2D34001006DB /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B97301AD1BDD2D34001006DB /* 4.png */; settings = {ASSET_TAGS = (); }; };
+		B97ABF931BD2421800487FE5 /* ViewControllerMedimLeval.m in Sources */ = {isa = PBXBuildFile; fileRef = B97ABF921BD2421800487FE5 /* ViewControllerMedimLeval.m */; settings = {ASSET_TAGS = (); }; };
+		B97ABF961BD243BC00487FE5 /* ViewControllerHardLeval.m in Sources */ = {isa = PBXBuildFile; fileRef = B97ABF951BD243BC00487FE5 /* ViewControllerHardLeval.m */; settings = {ASSET_TAGS = (); }; };
+		B97ABFA21BD2489A00487FE5 /* ViewControllerVeryHardLeval.m in Sources */ = {isa = PBXBuildFile; fileRef = B97ABFA11BD2489A00487FE5 /* ViewControllerVeryHardLeval.m */; settings = {ASSET_TAGS = (); }; };
+		B97ABFB91BD55E8F00487FE5 /* arabia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB01BD55E8F00487FE5 /* arabia.jpg */; settings = {ASSET_TAGS = (); }; };
+		B97ABFBA1BD55E8F00487FE5 /* Brazil.gif in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB11BD55E8F00487FE5 /* Brazil.gif */; settings = {ASSET_TAGS = (); }; };
+		B97ABFBB1BD55E8F00487FE5 /* FLAG_2007_09_28_16_40_51_UNITED_ARAB_EMIRATES.bmp in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB21BD55E8F00487FE5 /* FLAG_2007_09_28_16_40_51_UNITED_ARAB_EMIRATES.bmp */; settings = {ASSET_TAGS = (); }; };
+		B97ABFBC1BD55E8F00487FE5 /* Flag_of_Jordan.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB31BD55E8F00487FE5 /* Flag_of_Jordan.png */; settings = {ASSET_TAGS = (); }; };
+		B97ABFBD1BD55E8F00487FE5 /* germany-flag-desktop-hd-wallpaper-for-background-full-free.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB41BD55E8F00487FE5 /* germany-flag-desktop-hd-wallpaper-for-background-full-free.jpg */; settings = {ASSET_TAGS = (); }; };
+		B97ABFBE1BD55E8F00487FE5 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB51BD55E8F00487FE5 /* images.png */; settings = {ASSET_TAGS = (); }; };
+		B97ABFBF1BD55E8F00487FE5 /* india-flag-1280x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB61BD55E8F00487FE5 /* india-flag-1280x768.jpg */; settings = {ASSET_TAGS = (); }; };
+		B97ABFC01BD55E8F00487FE5 /* south_africa_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB71BD55E8F00487FE5 /* south_africa_1.png */; settings = {ASSET_TAGS = (); }; };
+		B97ABFC11BD55E8F00487FE5 /* turkishflag_big.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97ABFB81BD55E8F00487FE5 /* turkishflag_big.jpg */; settings = {ASSET_TAGS = (); }; };
+		B97B122F1BDB6EE000C84406 /* 5472e-6-plus-wallpaper-ilikewallpaper_com-576x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97B12291BDB6EE000C84406 /* 5472e-6-plus-wallpaper-ilikewallpaper_com-576x1024.jpg */; settings = {ASSET_TAGS = (); }; };
+		B97B12301BDB6EE000C84406 /* Galaxy-Power-iphone-6-wallpaper-ilikewallpaper_com.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B97B122A1BDB6EE000C84406 /* Galaxy-Power-iphone-6-wallpaper-ilikewallpaper_com.jpeg */; settings = {ASSET_TAGS = (); }; };
+		B97B12311BDB6EE000C84406 /* iPhone-6-wallpaper-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97B122B1BDB6EE000C84406 /* iPhone-6-wallpaper-13.jpg */; settings = {ASSET_TAGS = (); }; };
+		B97B12321BDB6EE000C84406 /* Snow-Mountain-Stars-Wallpaper-iPhone-6-Plus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97B122C1BDB6EE000C84406 /* Snow-Mountain-Stars-Wallpaper-iPhone-6-Plus.jpg */; settings = {ASSET_TAGS = (); }; };
+		B97B12331BDB6EE000C84406 /* Under-Blue-Water-iPhone-6-plus-wallpaper-ilikewallpaper_com.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B97B122D1BDB6EE000C84406 /* Under-Blue-Water-iPhone-6-plus-wallpaper-ilikewallpaper_com.jpeg */; settings = {ASSET_TAGS = (); }; };
+		B97B12341BDB6EE000C84406 /* افضل-خلفيات-ايفون-6-بلس-17 20-20-39-874.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97B122E1BDB6EE000C84406 /* افضل-خلفيات-ايفون-6-بلس-17 20-20-39-874.jpg */; settings = {ASSET_TAGS = (); }; };
+		B97B12371BDBFA5100C84406 /* ViewControllerTatorialView.m in Sources */ = {isa = PBXBuildFile; fileRef = B97B12361BDBFA5100C84406 /* ViewControllerTatorialView.m */; settings = {ASSET_TAGS = (); }; };
+		B9A4EFE51BD80B12001A4338 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A4EFE41BD80B12001A4338 /* AVFoundation.framework */; };
+		B9A4EFF81BD91A34001A4338 /* winSonud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A4EFF61BD91A34001A4338 /* winSonud.mp3 */; settings = {ASSET_TAGS = (); }; };
+		B9A4EFF91BD91A34001A4338 /* wrongAnswerALoseGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A4EFF71BD91A34001A4338 /* wrongAnswerALoseGame.mp3 */; settings = {ASSET_TAGS = (); }; };
+		B9E6B0581BC56E9100459F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E6B0571BC56E9100459F01 /* main.m */; };
+		B9E6B05B1BC56E9100459F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E6B05A1BC56E9100459F01 /* AppDelegate.m */; };
+		B9E6B05E1BC56E9100459F01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E6B05D1BC56E9100459F01 /* ViewController.m */; };
+		B9E6B0611BC56E9100459F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E6B05F1BC56E9100459F01 /* Main.storyboard */; };
+		B9E6B0631BC56E9100459F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E6B0621BC56E9100459F01 /* Assets.xcassets */; };
+		B9E6B0661BC56E9100459F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E6B0641BC56E9100459F01 /* LaunchScreen.storyboard */; };
+		B9E6B0711BC56E9100459F01 /* aBigHomeWork_yousefTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E6B0701BC56E9100459F01 /* aBigHomeWork_yousefTests.m */; };
+		B9E6B07C1BC56E9100459F01 /* aBigHomeWork_yousefUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E6B07B1BC56E9100459F01 /* aBigHomeWork_yousefUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9E6B06D1BC56E9100459F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E6B04B1BC56E9100459F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E6B0521BC56E9100459F01;
+			remoteInfo = aBigHomeWork.yousef;
+		};
+		B9E6B0781BC56E9100459F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E6B04B1BC56E9100459F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E6B0521BC56E9100459F01;
+			remoteInfo = aBigHomeWork.yousef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B97301A91BDD2D34001006DB /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		B97301AA1BDD2D34001006DB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B97301AB1BDD2D34001006DB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		B97301AC1BDD2D34001006DB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		B97301AD1BDD2D34001006DB /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		B97ABF911BD2421800487FE5 /* ViewControllerMedimLeval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerMedimLeval.h; sourceTree = "<group>"; };
+		B97ABF921BD2421800487FE5 /* ViewControllerMedimLeval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerMedimLeval.m; sourceTree = "<group>"; };
+		B97ABF941BD243BC00487FE5 /* ViewControllerHardLeval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerHardLeval.h; sourceTree = "<group>"; };
+		B97ABF951BD243BC00487FE5 /* ViewControllerHardLeval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHardLeval.m; sourceTree = "<group>"; };
+		B97ABFA01BD2489A00487FE5 /* ViewControllerVeryHardLeval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerVeryHardLeval.h; sourceTree = "<group>"; };
+		B97ABFA11BD2489A00487FE5 /* ViewControllerVeryHardLeval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerVeryHardLeval.m; sourceTree = "<group>"; };
+		B97ABFB01BD55E8F00487FE5 /* arabia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arabia.jpg; sourceTree = "<group>"; };
+		B97ABFB11BD55E8F00487FE5 /* Brazil.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Brazil.gif; sourceTree = "<group>"; };
+		B97ABFB21BD55E8F00487FE5 /* FLAG_2007_09_28_16_40_51_UNITED_ARAB_EMIRATES.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = FLAG_2007_09_28_16_40_51_UNITED_ARAB_EMIRATES.bmp; sourceTree = "<group>"; };
+		B97ABFB31BD55E8F00487FE5 /* Flag_of_Jordan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Jordan.png; sourceTree = "<group>"; };
+		B97ABFB41BD55E8F00487FE5 /* germany-flag-desktop-hd-wallpaper-for-background-full-free.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "germany-flag-desktop-hd-wallpaper-for-background-full-free.jpg"; sourceTree = "<group>"; };
+		B97ABFB51BD55E8F00487FE5 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		B97ABFB61BD55E8F00487FE5 /* india-flag-1280x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "india-flag-1280x768.jpg"; sourceTree = "<group>"; };
+		B97ABFB71BD55E8F00487FE5 /* south_africa_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = south_africa_1.png; sourceTree = "<group>"; };
+		B97ABFB81BD55E8F00487FE5 /* turkishflag_big.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turkishflag_big.jpg; sourceTree = "<group>"; };
+		B97B12291BDB6EE000C84406 /* 5472e-6-plus-wallpaper-ilikewallpaper_com-576x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5472e-6-plus-wallpaper-ilikewallpaper_com-576x1024.jpg"; sourceTree = "<group>"; };
+		B97B122A1BDB6EE000C84406 /* Galaxy-Power-iphone-6-wallpaper-ilikewallpaper_com.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Galaxy-Power-iphone-6-wallpaper-ilikewallpaper_com.jpeg"; sourceTree = "<group>"; };
+		B97B122B1BDB6EE000C84406 /* iPhone-6-wallpaper-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-6-wallpaper-13.jpg"; sourceTree = "<group>"; };
+		B97B122C1BDB6EE000C84406 /* Snow-Mountain-Stars-Wallpaper-iPhone-6-Plus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow-Mountain-Stars-Wallpaper-iPhone-6-Plus.jpg"; sourceTree = "<group>"; };
+		B97B122D1BDB6EE000C84406 /* Under-Blue-Water-iPhone-6-plus-wallpaper-ilikewallpaper_com.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Under-Blue-Water-iPhone-6-plus-wallpaper-ilikewallpaper_com.jpeg"; sourceTree = "<group>"; };
+		B97B122E1BDB6EE000C84406 /* افضل-خلفيات-ايفون-6-بلس-17 20-20-39-874.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "افضل-خلفيات-ايفون-6-بلس-17 20-20-39-874.jpg"; sourceTree = "<group>"; };
+		B97B12351BDBFA5100C84406 /* ViewControllerTatorialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTatorialView.h; sourceTree = "<group>"; };
+		B97B12361BDBFA5100C84406 /* ViewControllerTatorialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTatorialView.m; sourceTree = "<group>"; };
+		B9A4EFE41BD80B12001A4338 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B9A4EFF61BD91A34001A4338 /* winSonud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winSonud.mp3; sourceTree = "<group>"; };
+		B9A4EFF71BD91A34001A4338 /* wrongAnswerALoseGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongAnswerALoseGame.mp3; sourceTree = "<group>"; };
+		B9E6B0531BC56E9100459F01 /* aBigHomeWork.yousef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aBigHomeWork.yousef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E6B0571BC56E9100459F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9E6B0591BC56E9100459F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9E6B05A1BC56E9100459F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9E6B05C1BC56E9100459F01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9E6B05D1BC56E9100459F01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9E6B0601BC56E9100459F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9E6B0621BC56E9100459F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9E6B0651BC56E9100459F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9E6B0671BC56E9100459F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E6B06C1BC56E9100459F01 /* aBigHomeWork.yousefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aBigHomeWork.yousefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E6B0701BC56E9100459F01 /* aBigHomeWork_yousefTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aBigHomeWork_yousefTests.m; sourceTree = "<group>"; };
+		B9E6B0721BC56E9100459F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E6B0771BC56E9100459F01 /* aBigHomeWork.yousefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aBigHomeWork.yousefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E6B07B1BC56E9100459F01 /* aBigHomeWork_yousefUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aBigHomeWork_yousefUITests.m; sourceTree = "<group>"; };
+		B9E6B07D1BC56E9100459F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9E6B0501BC56E9100459F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A4EFE51BD80B12001A4338 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E6B0691BC56E9100459F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E6B0741BC56E9100459F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B97301A81BDD2D34001006DB /* tatorialPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				B97301A91BDD2D34001006DB /* 0.png */,
+				B97301AA1BDD2D34001006DB /* 1.png */,
+				B97301AB1BDD2D34001006DB /* 2.png */,
+				B97301AC1BDD2D34001006DB /* 3.png */,
+				B97301AD1BDD2D34001006DB /* 4.png */,
+			);
+			path = tatorialPhoto;
+			sourceTree = "<group>";
+		};
+		B97ABFAF1BD55E8F00487FE5 /* photoGame */ = {
+			isa = PBXGroup;
+			children = (
+				B97ABFB01BD55E8F00487FE5 /* arabia.jpg */,
+				B97ABFB11BD55E8F00487FE5 /* Brazil.gif */,
+				B97ABFB21BD55E8F00487FE5 /* FLAG_2007_09_28_16_40_51_UNITED_ARAB_EMIRATES.bmp */,
+				B97ABFB31BD55E8F00487FE5 /* Flag_of_Jordan.png */,
+				B97ABFB41BD55E8F00487FE5 /* germany-flag-desktop-hd-wallpaper-for-background-full-free.jpg */,
+				B97ABFB51BD55E8F00487FE5 /* images.png */,
+				B97ABFB61BD55E8F00487FE5 /* india-flag-1280x768.jpg */,
+				B97ABFB71BD55E8F00487FE5 /* south_africa_1.png */,
+				B97ABFB81BD55E8F00487FE5 /* turkishflag_big.jpg */,
+			);
+			path = photoGame;
+			sourceTree = "<group>";
+		};
+		B97B12281BDB6EE000C84406 /* backGround */ = {
+			isa = PBXGroup;
+			children = (
+				B97B12291BDB6EE000C84406 /* 5472e-6-plus-wallpaper-ilikewallpaper_com-576x1024.jpg */,
+				B97B122A1BDB6EE000C84406 /* Galaxy-Power-iphone-6-wallpaper-ilikewallpaper_com.jpeg */,
+				B97B122B1BDB6EE000C84406 /* iPhone-6-wallpaper-13.jpg */,
+				B97B122C1BDB6EE000C84406 /* Snow-Mountain-Stars-Wallpaper-iPhone-6-Plus.jpg */,
+				B97B122D1BDB6EE000C84406 /* Under-Blue-Water-iPhone-6-plus-wallpaper-ilikewallpaper_com.jpeg */,
+				B97B122E1BDB6EE000C84406 /* افضل-خلفيات-ايفون-6-بلس-17 20-20-39-874.jpg */,
+			);
+			path = backGround;
+			sourceTree = "<group>";
+		};
+		B9A4EFF51BD91A34001A4338 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4EFF61BD91A34001A4338 /* winSonud.mp3 */,
+				B9A4EFF71BD91A34001A4338 /* wrongAnswerALoseGame.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		B9E6B04A1BC56E9100459F01 = {
+			isa = PBXGroup;
+			children = (
+				B9A4EFE41BD80B12001A4338 /* AVFoundation.framework */,
+				B9E6B0551BC56E9100459F01 /* aBigHomeWork.yousef */,
+				B9E6B06F1BC56E9100459F01 /* aBigHomeWork.yousefTests */,
+				B9E6B07A1BC56E9100459F01 /* aBigHomeWork.yousefUITests */,
+				B9E6B0541BC56E9100459F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E6B0541BC56E9100459F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E6B0531BC56E9100459F01 /* aBigHomeWork.yousef.app */,
+				B9E6B06C1BC56E9100459F01 /* aBigHomeWork.yousefTests.xctest */,
+				B9E6B0771BC56E9100459F01 /* aBigHomeWork.yousefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E6B0551BC56E9100459F01 /* aBigHomeWork.yousef */ = {
+			isa = PBXGroup;
+			children = (
+				B9E6B0591BC56E9100459F01 /* AppDelegate.h */,
+				B9E6B05A1BC56E9100459F01 /* AppDelegate.m */,
+				B9E6B05C1BC56E9100459F01 /* ViewController.h */,
+				B9E6B05D1BC56E9100459F01 /* ViewController.m */,
+				B97ABF911BD2421800487FE5 /* ViewControllerMedimLeval.h */,
+				B97ABF921BD2421800487FE5 /* ViewControllerMedimLeval.m */,
+				B97ABF941BD243BC00487FE5 /* ViewControllerHardLeval.h */,
+				B97ABF951BD243BC00487FE5 /* ViewControllerHardLeval.m */,
+				B97ABFA01BD2489A00487FE5 /* ViewControllerVeryHardLeval.h */,
+				B97ABFA11BD2489A00487FE5 /* ViewControllerVeryHardLeval.m */,
+				B97B12351BDBFA5100C84406 /* ViewControllerTatorialView.h */,
+				B97B12361BDBFA5100C84406 /* ViewControllerTatorialView.m */,
+				B9E6B05F1BC56E9100459F01 /* Main.storyboard */,
+				B9E6B0621BC56E9100459F01 /* Assets.xcassets */,
+				B9E6B0641BC56E9100459F01 /* LaunchScreen.storyboard */,
+				B9E6B0671BC56E9100459F01 /* Info.plist */,
+				B97B12281BDB6EE000C84406 /* backGround */,
+				B9A4EFF51BD91A34001A4338 /* sound */,
+				B97ABFAF1BD55E8F00487FE5 /* photoGame */,
+				B97301A81BDD2D34001006DB /* tatorialPhoto */,
+				B9E6B0561BC56E9100459F01 /* Supporting Files */,
+			);
+			path = aBigHomeWork.yousef;
+			sourceTree = "<group>";
+		};
+		B9E6B0561BC56E9100459F01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E6B0571BC56E9100459F01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9E6B06F1BC56E9100459F01 /* aBigHomeWork.yousefTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E6B0701BC56E9100459F01 /* aBigHomeWork_yousefTests.m */,
+				B9E6B0721BC56E9100459F01 /* Info.plist */,
+			);
+			path = aBigHomeWork.yousefTests;
+			sourceTree = "<group>";
+		};
+		B9E6B07A1BC56E9100459F01 /* aBigHomeWork.yousefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E6B07B1BC56E9100459F01 /* aBigHomeWork_yousefUITests.m */,
+				B9E6B07D1BC56E9100459F01 /* Info.plist */,
+			);
+			path = aBigHomeWork.yousefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9E6B0521BC56E9100459F01 /* aBigHomeWork.yousef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E6B0801BC56E9100459F01 /* Build configuration list for PBXNativeTarget "aBigHomeWork.yousef" */;
+			buildPhases = (
+				B9E6B04F1BC56E9100459F01 /* Sources */,
+				B9E6B0501BC56E9100459F01 /* Frameworks */,
+				B9E6B0511BC56E9100459F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aBigHomeWork.yousef;
+			productName = aBigHomeWork.yousef;
+			productReference = B9E6B0531BC56E9100459F01 /* aBigHomeWork.yousef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9E6B06B1BC56E9100459F01 /* aBigHomeWork.yousefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E6B0831BC56E9100459F01 /* Build configuration list for PBXNativeTarget "aBigHomeWork.yousefTests" */;
+			buildPhases = (
+				B9E6B0681BC56E9100459F01 /* Sources */,
+				B9E6B0691BC56E9100459F01 /* Frameworks */,
+				B9E6B06A1BC56E9100459F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E6B06E1BC56E9100459F01 /* PBXTargetDependency */,
+			);
+			name = aBigHomeWork.yousefTests;
+			productName = aBigHomeWork.yousefTests;
+			productReference = B9E6B06C1BC56E9100459F01 /* aBigHomeWork.yousefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9E6B0761BC56E9100459F01 /* aBigHomeWork.yousefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E6B0861BC56E9100459F01 /* Build configuration list for PBXNativeTarget "aBigHomeWork.yousefUITests" */;
+			buildPhases = (
+				B9E6B0731BC56E9100459F01 /* Sources */,
+				B9E6B0741BC56E9100459F01 /* Frameworks */,
+				B9E6B0751BC56E9100459F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E6B0791BC56E9100459F01 /* PBXTargetDependency */,
+			);
+			name = aBigHomeWork.yousefUITests;
+			productName = aBigHomeWork.yousefUITests;
+			productReference = B9E6B0771BC56E9100459F01 /* aBigHomeWork.yousefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9E6B04B1BC56E9100459F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yousef;
+				TargetAttributes = {
+					B9E6B0521BC56E9100459F01 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					B9E6B06B1BC56E9100459F01 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B9E6B0521BC56E9100459F01;
+					};
+					B9E6B0761BC56E9100459F01 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B9E6B0521BC56E9100459F01;
+					};
+				};
+			};
+			buildConfigurationList = B9E6B04E1BC56E9100459F01 /* Build configuration list for PBXProject "aBigHomeWork.yousef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9E6B04A1BC56E9100459F01;
+			productRefGroup = B9E6B0541BC56E9100459F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9E6B0521BC56E9100459F01 /* aBigHomeWork.yousef */,
+				B9E6B06B1BC56E9100459F01 /* aBigHomeWork.yousefTests */,
+				B9E6B0761BC56E9100459F01 /* aBigHomeWork.yousefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9E6B0511BC56E9100459F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97B12311BDB6EE000C84406 /* iPhone-6-wallpaper-13.jpg in Resources */,
+				B97ABFBE1BD55E8F00487FE5 /* images.png in Resources */,
+				B97ABFBA1BD55E8F00487FE5 /* Brazil.gif in Resources */,
+				B97301B21BDD2D34001006DB /* 4.png in Resources */,
+				B97301B11BDD2D34001006DB /* 3.png in Resources */,
+				B97301AE1BDD2D34001006DB /* 0.png in Resources */,
+				B97301B01BDD2D34001006DB /* 2.png in Resources */,
+				B97B122F1BDB6EE000C84406 /* 5472e-6-plus-wallpaper-ilikewallpaper_com-576x1024.jpg in Resources */,
+				B97ABFC01BD55E8F00487FE5 /* south_africa_1.png in Resources */,
+				B97B12331BDB6EE000C84406 /* Under-Blue-Water-iPhone-6-plus-wallpaper-ilikewallpaper_com.jpeg in Resources */,
+				B97B12301BDB6EE000C84406 /* Galaxy-Power-iphone-6-wallpaper-ilikewallpaper_com.jpeg in Resources */,
+				B97ABFBC1BD55E8F00487FE5 /* Flag_of_Jordan.png in Resources */,
+				B97ABFBB1BD55E8F00487FE5 /* FLAG_2007_09_28_16_40_51_UNITED_ARAB_EMIRATES.bmp in Resources */,
+				B97B12321BDB6EE000C84406 /* Snow-Mountain-Stars-Wallpaper-iPhone-6-Plus.jpg in Resources */,
+				B97301AF1BDD2D34001006DB /* 1.png in Resources */,
+				B9A4EFF81BD91A34001A4338 /* winSonud.mp3 in Resources */,
+				B9E6B0661BC56E9100459F01 /* LaunchScreen.storyboard in Resources */,
+				B97ABFBF1BD55E8F00487FE5 /* india-flag-1280x768.jpg in Resources */,
+				B9A4EFF91BD91A34001A4338 /* wrongAnswerALoseGame.mp3 in Resources */,
+				B97B12341BDB6EE000C84406 /* افضل-خلفيات-ايفون-6-بلس-17 20-20-39-874.jpg in Resources */,
+				B97ABFC11BD55E8F00487FE5 /* turkishflag_big.jpg in Resources */,
+				B97ABFBD1BD55E8F00487FE5 /* germany-flag-desktop-hd-wallpaper-for-background-full-free.jpg in Resources */,
+				B97ABFB91BD55E8F00487FE5 /* arabia.jpg in Resources */,
+				B9E6B0631BC56E9100459F01 /* Assets.xcassets in Resources */,
+				B9E6B0611BC56E9100459F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E6B06A1BC56E9100459F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E6B0751BC56E9100459F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9E6B04F1BC56E9100459F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97ABF961BD243BC00487FE5 /* ViewControllerHardLeval.m in Sources */,
+				B97ABF931BD2421800487FE5 /* ViewControllerMedimLeval.m in Sources */,
+				B97B12371BDBFA5100C84406 /* ViewControllerTatorialView.m in Sources */,
+				B97ABFA21BD2489A00487FE5 /* ViewControllerVeryHardLeval.m in Sources */,
+				B9E6B05E1BC56E9100459F01 /* ViewController.m in Sources */,
+				B9E6B05B1BC56E9100459F01 /* AppDelegate.m in Sources */,
+				B9E6B0581BC56E9100459F01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E6B0681BC56E9100459F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E6B0711BC56E9100459F01 /* aBigHomeWork_yousefTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E6B0731BC56E9100459F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E6B07C1BC56E9100459F01 /* aBigHomeWork_yousefUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9E6B06E1BC56E9100459F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E6B0521BC56E9100459F01 /* aBigHomeWork.yousef */;
+			targetProxy = B9E6B06D1BC56E9100459F01 /* PBXContainerItemProxy */;
+		};
+		B9E6B0791BC56E9100459F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E6B0521BC56E9100459F01 /* aBigHomeWork.yousef */;
+			targetProxy = B9E6B0781BC56E9100459F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9E6B05F1BC56E9100459F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E6B0601BC56E9100459F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9E6B0641BC56E9100459F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E6B0651BC56E9100459F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9E6B07E1BC56E9100459F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9E6B07F1BC56E9100459F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9E6B0811BC56E9100459F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aBigHomeWork.yousef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yousef.aBigHomeWork-yousef";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9E6B0821BC56E9100459F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aBigHomeWork.yousef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yousef.aBigHomeWork-yousef";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9E6B0841BC56E9100459F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aBigHomeWork.yousefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yousef.aBigHomeWork-yousefTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aBigHomeWork.yousef.app/aBigHomeWork.yousef";
+			};
+			name = Debug;
+		};
+		B9E6B0851BC56E9100459F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aBigHomeWork.yousefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yousef.aBigHomeWork-yousefTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aBigHomeWork.yousef.app/aBigHomeWork.yousef";
+			};
+			name = Release;
+		};
+		B9E6B0871BC56E9100459F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aBigHomeWork.yousefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yousef.aBigHomeWork-yousefUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aBigHomeWork.yousef;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B9E6B0881BC56E9100459F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aBigHomeWork.yousefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yousef.aBigHomeWork-yousefUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aBigHomeWork.yousef;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9E6B04E1BC56E9100459F01 /* Build configuration list for PBXProject "aBigHomeWork.yousef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E6B07E1BC56E9100459F01 /* Debug */,
+				B9E6B07F1BC56E9100459F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E6B0801BC56E9100459F01 /* Build configuration list for PBXNativeTarget "aBigHomeWork.yousef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E6B0811BC56E9100459F01 /* Debug */,
+				B9E6B0821BC56E9100459F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E6B0831BC56E9100459F01 /* Build configuration list for PBXNativeTarget "aBigHomeWork.yousefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E6B0841BC56E9100459F01 /* Debug */,
+				B9E6B0851BC56E9100459F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E6B0861BC56E9100459F01 /* Build configuration list for PBXNativeTarget "aBigHomeWork.yousefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E6B0871BC56E9100459F01 /* Debug */,
+				B9E6B0881BC56E9100459F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9E6B04B1BC56E9100459F01 /* Project object */;
+}
